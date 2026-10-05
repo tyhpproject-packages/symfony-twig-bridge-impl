@@ -1,0 +1,101 @@
+{
+    "name": "tyhpdef/symfony-twig-bridge-impl",
+    "description": "Implementation package for tyhpdef/symfony-twig-bridge. Require tyhpdef/symfony-twig-bridge, not this package.",
+    "keywords": [
+        "dev",
+        "static analysis",
+        "internal"
+    ],
+    "type": "library",
+    "license": "Apache-2.0",
+    "version": "7.4.17.0",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "tyhp": {
+            "interopContractVersion": 1,
+            "php-version": ">=8.2",
+            "require": {
+                "tyhpdef/php": "@dev",
+                "tyhpdef/symfony-translation-contracts": "@dev",
+                "tyhpdef/twig-twig": "@dev",
+                "tyhpdef/symfony-http-foundation": "@dev",
+                "tyhpdef/php-ext-session": "@dev",
+                "tyhpdef/php-ext-pdo": "@dev",
+                "tyhpdef/symfony-http-kernel": "@dev",
+                "tyhpdef/psr-log": "@dev",
+                "tyhpdef/symfony-error-handler": "@dev",
+                "tyhpdef/symfony-event-dispatcher": "@dev",
+                "tyhpdef/symfony-event-dispatcher-contracts": "@dev",
+                "tyhpdef/symfony-service-contracts": "@dev",
+                "tyhpdef/symfony-var-dumper": "@dev",
+                "tyhpdef/psr-event-dispatcher": "@dev",
+                "tyhpdef/psr-container": "@dev",
+                "tyhpdef/symfony-security-core": "@dev",
+                "tyhpdef/symfony-password-hasher": "@dev",
+                "tyhpdef/symfony-expression-language": "@dev",
+                "tyhpdef/symfony-cache": "@dev",
+                "tyhpdef/symfony-cache-contracts": "@dev",
+                "tyhpdef/psr-cache": "@dev",
+                "tyhpdef/symfony-var-exporter": "@dev",
+                "tyhpdef/psr-clock": "@dev",
+                "tyhpdef/psr-simple-cache": "@dev",
+                "tyhpdef/php-ext-memcached": "@dev",
+                "tyhpdef/php-ext-redis": "@dev",
+                "tyhpdef/predis-predis": "@dev",
+                "tyhpdef/symfony-security-csrf": "@dev",
+                "tyhpdef/symfony-translation": "@dev",
+                "tyhpdef/php-ext-intl": "@dev",
+                "tyhpdef/php-ext-dom": "@dev"
+            },
+            "package": {
+                "include": [
+                    "./_tyhpdef/*.tyhpdef",
+                    "./_tyhpdef/extensions/*.tyhpdef"
+                ],
+                "overlay": [
+                    "./_tyhpdef/overlays/stubs/*.tyhpdef",
+                    "./_tyhpdef/overlays/*.tyhpdef"
+                ]
+            },
+            "public": "tyhpdef/symfony-twig-bridge"
+        }
+    },
+    "require": {
+        "php": ">=8.2",
+        "symfony/twig-bridge": "7.4.17"
+    },
+    "require-dev": {
+        "tyhpdef/php": "@dev",
+        "tyhpdef/symfony-translation-contracts": "@dev",
+        "tyhpdef/twig-twig": "@dev",
+        "tyhpdef/symfony-http-foundation": "@dev",
+        "tyhpdef/php-ext-session": "@dev",
+        "tyhpdef/php-ext-pdo": "@dev",
+        "tyhpdef/symfony-http-kernel": "@dev",
+        "tyhpdef/psr-log": "@dev",
+        "tyhpdef/symfony-error-handler": "@dev",
+        "tyhpdef/symfony-event-dispatcher": "@dev",
+        "tyhpdef/symfony-event-dispatcher-contracts": "@dev",
+        "tyhpdef/symfony-service-contracts": "@dev",
+        "tyhpdef/symfony-var-dumper": "@dev",
+        "tyhpdef/psr-event-dispatcher": "@dev",
+        "tyhpdef/psr-container": "@dev",
+        "tyhpdef/symfony-security-core": "@dev",
+        "tyhpdef/symfony-password-hasher": "@dev",
+        "tyhpdef/symfony-expression-language": "@dev",
+        "tyhpdef/symfony-cache": "@dev",
+        "tyhpdef/symfony-cache-contracts": "@dev",
+        "tyhpdef/psr-cache": "@dev",
+        "tyhpdef/symfony-var-exporter": "@dev",
+        "tyhpdef/psr-clock": "@dev",
+        "tyhpdef/psr-simple-cache": "@dev",
+        "tyhpdef/php-ext-memcached": "@dev",
+        "tyhpdef/php-ext-redis": "@dev",
+        "tyhpdef/predis-predis": "@dev",
+        "tyhpdef/symfony-security-csrf": "@dev",
+        "tyhpdef/symfony-translation": "@dev",
+        "tyhpdef/php-ext-intl": "@dev",
+        "tyhpdef/php-ext-dom": "@dev"
+    }
+}
